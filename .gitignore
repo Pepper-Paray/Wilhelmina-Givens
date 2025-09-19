@@ -1,0 +1,20 @@
+.env
+.env.local
+
+# misc
+.DS_Store
+.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+amplify/#current-cloud-backend
+amplify/.config/local-*
+amplify/logs
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+amplify/backend/.temp
+aws-exports.js
+awsconfiguration.json
