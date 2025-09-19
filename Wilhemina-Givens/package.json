@@ -1,22 +1,38 @@
 {
   "name": "wilhelmina-givens",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tribute app for Wilhelmina Givens with a message board powered by DynamoDB",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pepper-Paray/Wilhelmina-Givens.git"
+    "url": "https://github.com/Pepper-Paray/Wilhelmina-Givens.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "tribute",
+    "react",
+    "dynamodb",
+    "aws",
+    "wilhelmina",
+    "legacy",
+    "message-board"
+  ],
+  "author": "Pepper-Paray",
   "license": "ISC",
-  "type": "commonjs",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "homepage": "https://github.com/Pepper-Paray/Wilhelmina-Givens#readme"
+  "homepage": "https://github.com/Pepper-Paray/Wilhelmina-Givens#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@aws-sdk/client-dynamodb": "^3.658.0",
+    "@aws-sdk/lib-dynamodb": "^3.658.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
 }
